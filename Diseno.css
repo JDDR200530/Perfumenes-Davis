@@ -1,0 +1,240 @@
+/* Estilos básicos */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#buscador{
+    background: url('https://www.shutterstock.com/image-illustration/abstract-bright-pattern-vibrant-gradient-260nw-2374961797.jpg') no-repeat center center/cover;
+    float: none;
+    text-align: center;
+}
+#searchButton{
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-family: serif;
+}
+
+#searchInput{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: serif;
+    font-style: oblique;
+    width: 200px;
+    border: 1px solid #ccc;
+    
+}
+
+
+.hero {
+    background: url('https://www.shutterstock.com/image-illustration/abstract-bright-pattern-vibrant-gradient-260nw-2374961797.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-gap: 20px; /* Espacio entre productos */
+    padding: 20px;
+    justify-items: center;
+    margin-bottom: 40px; /* Espacio al final para la paginación */
+}
+
+.product-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ocupa el 100% del espacio disponible */
+    max-width: 250px; /* Ancho máximo para cada tarjeta */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    height: 200px; /* Establecemos una altura fija para las imágenes */
+    object-fit: cover; /* Recorta la imagen para que cubra todo el espacio sin deformarse */
+}
+
+.product-card h3 {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.product-card p {
+    padding: 0 10px;
+    font-size: 1rem;
+    color: #777;
+}
+
+.product-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.add-to-cart:hover {
+    background-color: #e08900;
+}
+
+.cta {
+    background-color: #f0a500;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Paginación */
+/* Estilos de la paginación */
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 20px;
+    margin-bottom: 40px; /* Un poco de espacio debajo de los productos */
+}
+
+.pagination-button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background-color: #f0a500;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.pagination-button:hover {
+    background-color: #ddd;
+}
+
+.pagination-button.active {
+    background-color: #420a83;
+    color: white;
+}
+
+.pagination-button:disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Estilo para dispositivos pequeños (mobile first) */
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas para pantallas medianas */
+    }
+
+    .product-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .products {
+        grid-template-columns: 1fr; /* 1 columna para pantallas pequeñas */
+    }
+}
+
+/* Estilos para la barra de navegación y hero en móviles */
+@media (max-width: 480px) {
+    header nav {
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}

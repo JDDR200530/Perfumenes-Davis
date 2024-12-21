@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Sección de Detalles */
+#producto-detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#producto-detalles h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#producto-detalles p {
+    font-size: 30px;
+    margin: 20px 0;
+    color: #777;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Contenedor de imágenes */
+.images-container {
+    position: relative;
+    width: 600px; /* Ancho del contenedor */
+    height: 400px; /* Altura del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Flechas */
+.arrow {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 1;
+}
+#contactar-whatsapp {
+    background-color: #25d366; /* Color verde de WhatsApp */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block; /* Permite centrarlo más fácilmente */
+    margin: 20px 0; /* Espacio arriba y abajo */
+}
+
+#contactar-whatsapp:hover {
+    background-color: #20b358; /* Color ligeramente más oscuro para hover */
+    transform: scale(1.05); /* Efecto de ampliación */
+}
+
+#contactar-whatsapp:active {
+    background-color: #1e9c4c; /* Color más oscuro al presionar */
+    transform: scale(0.95); /* Efecto de presión */
+}
+
+#prev-arrow {
+    left: -60px;  /* Desplazar 20px a la izquierda */
+}
+
+#next-arrow {
+    right: -50px;  /* Desplazar 20px a la derecha */
+}
+
+.arrow:hover {
+    color: #f0a500;
+}
+
+/* Cada imagen del producto */
+.images img {
+    width: 450px; /* Ancho de la imagen */
+    height: 450px; /* Altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente para llenar el contenedor */
+    display: none;  /* Ocultar imágenes por defecto */
+    transition: opacity 0.5s ease-in-out;  /* Efecto de transición suave */
+}
+
+/* Imagen activa */
+.images img.active {
+    display: block;  /* Solo la imagen activa se muestra */
+}
+
+/* Contador de imágenes (círculos) */
+.pagination-indicator {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.indicator-circle {
+    width: 12px; /* Tamaño del círculo */
+    height: 12px; /* Tamaño del círculo */
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.indicator-circle.active {
+    background-color: #f0a500;
+}

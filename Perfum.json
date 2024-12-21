@@ -1,0 +1,350 @@
+[
+    {
+      "id": 1,
+      "nombre": "Nautica Blue 100ml",
+      "descripcion":"Nautica Blue es una fragancia masculina fresca y acuática, ideal para hombres activos. Su aroma evoca la brisa marina y es perfecto para climas cálidos y uso diario.", 
+      "precio": 1000
+    },
+    {
+      "id": 2,
+      "nombre": "ANA AL AWWAL 100ml",
+      "descripcion": "Ana Al Awwal Nusuk Blue es una fragancia masculina oriental y fresca, con notas de salida cítricas, un corazón especiado, y un fondo cálido de ámbar y madera. Perfecta para ocasiones especiales y climas templados",
+      "precio": 1400
+    },
+    {
+      "id": 3,
+      "nombre": "Obsession 125ml",
+      "descripcion": "Obsession de Calvin Klein es una fragancia masculina intensa y especiada, con notas de salida cítricas, un corazón cálido de especias y lavanda, y un fondo amaderado con ámbar y vainilla. Ideal para climas fríos y ocasiones especiales.",
+      "precio": 2100
+    }
+    , {
+      "id": 4,
+      "nombre": "Fasio Light Blue 100ml",
+      "descripcion": "Fasio Light Blue es una fragancia femenina fresca y floral, con notas cítricas en la salida, un corazón de flores suaves y un fondo almizclado. Perfecta para el uso diario y climas cálidos.",
+      "precio": 1400
+    }
+    , {
+      "id": 5,
+      "nombre": "Invictus 100ml",
+      "descripcion": "Invictus de Paco Rabanne es una fragancia masculina vibrante y energética con notas frescas marinas un corazón de jazmín y laureles y un fondo amaderado y ambarino. Ideal para hombres dinámicos y ocasiones versátiles",
+      "precio": 2300
+    }
+    , {
+      "id": 6,
+      "nombre": "Eternity 100ml",
+      "descripcion": "Eternity for Women Air de Calvin Klein es una fragancia femenina fresca y ligera, con notas cítricas y ozónicas, un corazón floral de peonía y lirio, y un fondo almizclado. Perfecta para el día a día y climas cálidos.",
+      "precio": 1900
+    }
+    , {
+      "id": 7,
+      "nombre": "Desert Angel Romance 100ml",
+      "descripcion": "Desert Angel Romance es una fragancia femenina dulce y floral, con notas de frutas jugosas, un corazón de flores delicadas y un fondo cálido de vainilla y almizcle. Ideal para momentos especiales y uso nocturno.",
+      "precio": 1400
+    }
+    , {
+      "id": 8,
+      "nombre": "Calvin Klein One 200ml",
+      "descripcion": "Calvin Klein One es una fragancia unisex fresca y cítrica, con notas de salida de limón y bergamota, un corazón de té verde y flores suaves, y un fondo de almizcle y ámbar. Ideal para el uso diario y climas cálidos.",
+      "precio": 1900
+    }
+    , {
+      "id": 9,
+      "nombre": "Polo Red 125ml",
+      "descripcion": "Polo Red de Ralph Lauren es una fragancia masculina intensa y vibrante, con notas de salida de arándano, limón y mandarina, un corazón especiado de jengibre y azafrán, y un fondo amaderado de sándalo y ámbar. Perfecta para ocasiones especiales y climas fríos.",
+      "precio": 2500
+    }
+    , {
+      "id": 10,
+      "nombre": "9 pm 100ml",
+      "descripcion": "9 PM de Afnan es una fragancia masculina oriental y amaderada, con notas de salida de lavanda, bergamota y manzana, un corazón de especias y florales, y un fondo cálido de vainilla, sándalo y almizcle. Ideal para la noche y ocasiones especiales.",
+      "precio": 1500
+    }
+    , {
+      "id": 11,
+      "nombre": "Haya 100ml",
+      "descripcion": "Haya es una fragancia femenina dulce y floral, con notas de salida frescas y frutales, un corazón floral suave con toques de rosas y jazmín, y un fondo cálido y ambarino. Perfecta para el uso diario y climas templados.",
+      "precio": 1500
+    }
+    ,{
+      "id":12,
+      "nombre": "Nautica Voyage 100ml",
+      "descripcion": "Nautica Voyage es una fragancia masculina fresca y acuática, con notas de manzana verde, pepino y hojas de loto en la salida, un corazón de jazmín y almizcle, y un fondo amaderado de sándalo y musgo. Ideal para el uso diario y climas cálidos.",
+      "precio":1100
+    }
+    ,{
+      "id":13,
+      "nombre": "Magnificent 100ml",
+      "descripcion": "Magnificent for Men es una fragancia masculina amaderada y especiada, con notas de salida frescas y cítricas, un corazón de especias y florales, y un fondo cálido de ámbar, sándalo y almizcle. Ideal para el uso diario y climas frescos.",
+      "precio":1500
+    }
+    ,{
+      "id":14,
+      "nombre":"Polo Sport 125ml",
+      "descripcion": "Polo Sport de Ralph Lauren es una fragancia masculina fresca y energética, con notas de salida de cítricos, menta y jengibre, un corazón de especias y flores, y un fondo amaderado de sándalo y almizcle. Perfecta para el uso diario y actividades deportivas.",
+      "precio": 2000
+    }
+    ,{
+      "id":15,
+      "nombre":"Bharara 100ml",
+      "descripcion":"Bharara es una fragancia masculina oriental y amaderada, con notas especiadas en la salida, un corazón floral y cálido, y un fondo intenso de ámbar, almizcle y maderas preciosas. Ideal para la noche y ocasiones especiales.",
+      "precio":2000
+    }
+    ,{
+      "id":16,
+      "nombre":"Jean Lowe 100ml",
+      "descripcion":"Jean Lowe es una fragancia masculina clásica y sofisticada, con notas frescas y cítricas en la salida, un corazón especiado y floral, y un fondo amaderado y almizclado. Perfecta para el uso diario y ocasiones formales."
+      ,"precio": 1400
+    }
+    ,{
+      "id":17,
+      "nombre":"Secrets of Arnia 100ml",
+      "descripcion":"Secrets of Arnia es una fragancia femenina elegante y encantadora, con notas de salida frescas y afrutadas, un corazón floral de rosas y jazmín, y un fondo cálido de vainilla y almizcle. Ideal para ocasiones especiales y climas templados.",
+      "precio":1400
+    }
+    ,{
+      "id":18,
+      "nombre":"Desert Angel Le Chameau 100ml",
+      "descripcion":"Desert Angel Le Chameau es una fragancia masculina oriental y especiada, con notas de salida frescas y cítricas, un corazón de especias cálidas, y un fondo amaderado con toques de ámbar y almizcle. Perfecta para climas frescos y uso nocturno.",
+      "precio":1400
+    }
+    ,{
+      "id":19,
+      "nombre":"212 Men New York 100ml",
+      "descripcion":"212 Men New York de Carolina Herrera es una fragancia masculina fresca y urbana, con notas de salida cítricas y verdes, un corazón especiado de pimienta y flores, y un fondo amaderado de sándalo, almizcle y vetiver. Ideal para el uso diario y ocasiones casuales.",
+      "precio":2500
+    }
+    ,{
+      "id":20,
+      "nombre":"Drug Fragrance Story 100ml",
+      "descripcion": "Drug Fragrance Story es una fragancia masculina atrevida y moderna, con notas de salida frescas y especiadas, un corazón floral amaderado, y un fondo cálido de ámbar y almizcle. Ideal para la noche y ocasiones especiales.",
+      "precio":1400
+    }
+    ,{
+      "id": 21,
+      "nombre":"Asad Zanzibar Blue 100ml",
+      "descripcion":"Asad Zanzibar Blue es una fragancia masculina fresca y aromática, con notas de salida cítricas y acuáticas, un corazón especiado y herbal, y un fondo amaderado con toques de ámbar. Ideal para el uso diario y climas cálidos.",
+      "precio":1400
+    }
+    ,{
+      "id":22,
+      "nombre":"Asad Black 100ml",
+      "descripcion": "Asad Black es una fragancia masculina intensa y sofisticada, con notas especiadas y cítricas en la salida, un corazón cálido de cuero y flores, y un fondo amaderado de ámbar y almizcle. Perfecta para la noche y ocasiones especiales.",
+      "precio":1400
+    }
+    ,{
+      "id":23,
+      "nombre" :"Hot Lips 100ml",
+      "descripcion": "Hot Lips es una fragancia femenina vibrante y seductora, con notas frutales en la salida, un corazón floral de rosas y jazmín, y un fondo cálido de vainilla y almizcle. Ideal para la noche y ocasiones especiales.",
+      "precio":1400
+    }
+    ,{
+      "id":24,
+      "nombre":"Velvet Rose 100ml",
+      "descripcion":"Mast Perfume Velvet Rose es una fragancia femenina elegante y floral, con notas de salida frescas, un corazón dominado por rosas aterciopeladas y un fondo cálido de ámbar y almizcle. Ideal para momentos especiales y climas templados.",
+      "precio":1400
+    }
+    ,{
+      "id":25,
+      "nombre":"Eclaire 100ml",
+      "descripcion": "Eclaire es una fragancia femenina fresca y floral, con notas de salida cítricas y afrutadas, un corazón floral suave con toques de jazmín y peonía, y un fondo delicado de almizcle y madera. Ideal para el uso diario y climas cálidos.",
+      "precio":2000
+      }
+      ,
+      {
+        "id":26,
+        "nombre":"Tequila 100ml",
+        "descripcion": "Tequila for Women es una fragancia femenina vibrante y exótica, con notas de salida cítricas y afrutadas, un corazón floral con toques de jazmín y orquídea, y un fondo cálido de vainilla y almizcle. Ideal para la noche y ocasiones especiales.",
+        "precio":1900
+      }
+      ,
+      {
+        "id":27,
+        "nombre":"Burj Dubai Arina 100ml",
+        "descripcion": "Burj Dubai Arina es una fragancia femenina oriental y floral, con notas de salida frescas y afrutadas, un corazón de flores exóticas como la rosa y el jazmín, y un fondo cálido de ámbar, vainilla y almizcle. Perfecta para ocasiones especiales y climas templados.",
+        "precio":1400
+      }
+      ,{
+        "id":28,
+        "nombre": "Perry Ellis 360 Grey 200ml",
+        "descripcion": "Perry Ellis 360 Grey es una fragancia masculina cálida y especiada, con notas de salida frescas y cítricas, un corazón de nuez moscada y cardamomo, y un fondo amaderado con ámbar y almizcle. Ideal para uso nocturno y climas frescos.",
+        "precio":1900
+      },
+      {
+        "id":29,
+        "nombre":"Perry Ellis 360 White 100ml",
+        "descripcion": "Perry Ellis 360 White for Women es una fragancia femenina fresca y floral, con notas de salida cítricas y afrutadas, un corazón de jazmín y rosa, y un fondo suave de vainilla y almizcle. Perfecta para el uso diario y climas cálidos.",
+        "precio":1100
+      },{
+        "id":30,
+        "nombre":"Perry Ellis 360 Coral 100ml",
+        "descripcion":"Perry Ellis 360 Coral es una fragancia femenina vibrante y afrutada, con notas de salida de cítricos y frutas tropicales, un corazón floral de jazmín y peonía, y un fondo cálido de ámbar, almizcle y maderas suaves. Ideal para el uso diario y climas cálidos.",
+        "precio":1100
+      },
+      {
+        "id": 31,
+        "nombre":"Perry Ellis 360 Red 200ml",
+        "descripcion": "Perry Ellis 360 Red es una fragancia masculina intensa y especiada, con notas de salida cítricas de lima y mandarina, un corazón de canela y nuez moscada, y un fondo cálido de ámbar, almizcle y madera de cedro. Perfecta para la noche y climas frescos.",
+        "precio":1900
+      },
+      {
+        "id":32,
+        "nombre":"Diesel Zero Plus 75ml",
+        "descripcion" : "Zero Plus Feminine de Diesel es una fragancia oriental y dulce, con notas de salida frutales de ciruela y piña, un corazón floral de jazmín y lirio, y un fondo cálido de vainilla, almizcle y ámbar. Perfecta para la noche y ocasiones especiales.",
+        "precio" : 900
+      }
+      ,
+      {
+        "id":33,
+        "nombre":"Eternity For Women 100ml",
+        "descripcion": "Eternity for Women de Calvin Klein es una fragancia floral y fresca, con notas de salida de cítricos y fresia, un corazón de jazmín, lirio y rosa, y un fondo suave de sándalo, almizcle y ámbar. Ideal para el uso diario y climas templados.",
+        "precio": 1900 
+      },
+      {
+        "id" : 34,
+        "nombre" : "Yara de 50ml",
+        "descripcion": "Yara es una fragancia femenina floral y afrutada, con notas de salida frescas de frutas tropicales, un corazón de flores como jazmín y rosa, y un fondo cálido de almizcle y madera. Perfecta para el uso diario y climas cálidos.",
+        "precio" : 500
+      },
+      {
+        "id":35,
+        "nombre": "Clinique Happy 100ml",
+        "descripcion": "Clinique Happy for Men es una fragancia masculina fresca y cítrica, con notas de salida de limón, mandarina y pomelo, un corazón de jazmín y clavo, y un fondo amaderado de cedro y almizcle. Perfecta para el uso diario y climas cálidos.",
+        "precio":1800
+      },
+      {
+        "id":36,
+        "nombre": "Nautica Classic 100ml",
+        "descripcion": "Nautica Classic es una fragancia masculina fresca y acuática, con notas de salida cítricas de naranja y limón, un corazón de geranio y jazmín, y un fondo amaderado de sándalo y almizcle. Ideal para el uso diario y climas cálidos.",
+        "precio": 900
+      }
+      ,
+      {
+        "id": 37,
+        "nombre":"Club de Nuit Woman 105ml",
+        "descripcion": "Club de Nuit Woman de Armaf es una fragancia femenina oriental floral, con notas de salida cítricas de limón y bergamota, un corazón floral de jazmín y rosa, y un fondo amaderado de sándalo y almizcle. Ideal para ocasiones especiales y climas templados.",
+        "precio": 1400
+      }
+      ,{
+        "id":38,
+        "nombre": "Club de Nuit Man 105ml",
+        "descripcion":"Club de Nuit Man de Armaf es una fragancia masculina amaderada y especiada, con notas de salida cítricas de limón y bergamota, un corazón de rosa y madera de oud, y un fondo amaderado de sándalo, ámbar y almizcle. Ideal para la noche y ocasiones especiales.",
+        "precio":1400
+      }
+      ,{
+        "id":39,
+        "nombre": "Yara Roll on Perfume 10ml",
+        "descripcion": "Yara es una fragancia femenina floral y afrutada, con notas de salida frescas de frutas tropicales, un corazón de flores como jazmín y rosa, y un fondo cálido de almizcle y madera. Perfecta para el uso diario y climas cálidos.",
+        "precio": 250
+      },
+      {
+        "id":40,
+        "nombre": "Sondos Perfum 100ml",
+        "descripcion" :"Sondos Perfume es una fragancia femenina oriental y cálida, con notas de salida frescas y florales, un corazón especiado con toques de rosa y jazmín, y un fondo profundo de oud, ámbar y almizcle. Ideal para la noche y ocasiones especiales.",
+        "precio": 1400
+      },
+      {
+        "id":41,
+        "nombre": "Fakhar Lattafa Men 100ml",
+        "descripcion": "Fakhar Lattafa for Men es una fragancia masculina oriental y amaderada, con notas de salida frescas de bergamota y limón, un corazón especiado de canela y clavo, y un fondo cálido de oud, ámbar y sándalo. Ideal para ocasiones especiales y climas frescos.",
+        "precio":1400
+      },
+      {
+        "id": 42,
+        "nombre": "Unpredictable Sport 100ml",
+        "descripcion" : "Unpredictable Sport es una fragancia masculina fresca y energizante, con notas de salida cítricas de pomelo y limón, un corazón de lavanda y hierbas aromáticas, y un fondo amaderado de almizcle y madera de cedro.",
+        "precio": 1400
+      },
+      {
+        "id": 43,
+        "nombre": "Tuscany Leather",
+        "descripcion": "Tuscany Leather es una fragancia unisex intensa y sofisticada, con notas de salida de frutas rojas y azafrán, un corazón de cuero, jazmín y flor de naranjo, y un fondo amaderado de sándalo, ámbar y pachulí. Ideal para ocasiones especiales y climas fríos.",
+        "precio":1100
+      },
+      {
+        "id":44,
+        "nombre": "Save Elixir",
+        "descripcion": "Save Elixir es una fragancia femenina floral y afrutada, con notas de salida frescas y cítricas, un corazón floral de jazmín y rosa, y un fondo cálido de almizcle y vainilla. Perfecta para el uso diario y climas templados.",
+        "precio":1100
+      },
+      {
+        "id":45,
+        "nombre": "Genius Victory 100ml",
+        "descripcion": "Genius Victory es una fragancia masculina fresca y amaderada, con notas de salida cítricas y frutales, un corazón especiado con toques de lavanda y canela, y un fondo amaderado de sándalo y almizcle. Ideal para el uso diario y ocasiones casuales.",
+        "precio":1100
+      },
+      {
+        "id": 46,
+        "nombre": "Nexus Perfum 100ml",
+        "descripcion": "Nexus Perfume es una fragancia unisex moderna y envolvente, con notas de salida frescas y cítricas, un corazón floral de lavanda y jazmín, y un fondo cálido y amaderado de sándalo y almizcle. Ideal para el uso diario y climas templados.",
+        "precio":1100
+      },
+      {
+        "id" : 47,
+        "nombre": "Rosebomb",
+        "descripcion":"Rosebomb es una fragancia femenina floral y dulce, con notas de salida frescas de bergamota, un corazón intenso de rosa, jazmín y flor de azahar, y un fondo cálido de vainilla y almizcle. Ideal para ocasiones especiales y climas templados.",
+        "precio":1100
+      },
+      {
+        "id": 48,
+        "nombre": "Barakkat Rouge 540 100ml",
+        "descripcion": "Baccarat Rouge 540 es una fragancia unisex de la casa Maison Francis Kurkdjian, conocida por su carácter lujoso y sofisticado. Con notas de salida de azafrán y jazmín, un corazón ambarado y madera de cedro, y un fondo de ámbar gris y almizcle, esta fragancia es cálida, floral y ligeramente resinosa. Ideal para ocasiones especiales y climas frescos.",
+        "precio":1400
+      },
+      {
+        "id": 49,
+        "nombre": "Chants 100ml",
+        "descripcion":"Chants Perfume es una fragancia femenina elegante y floral, con notas de salida cítricas y afrutadas, un corazón de flores como el jazmín y la rosa, y un fondo cálido de vainilla, ámbar y almizcle. Perfecta para ocasiones especiales y climas templados.",
+        "precio":1400
+      },
+      {
+        "id":50,
+        "nombre":"Lacoste Essential 125ml",
+        "descripcion": "Lacoste Essential es una fragancia masculina fresca y amaderada, con notas de salida cítricas de mandarina y pomelo, un corazón herbáceo de tomillo y rosa, y un fondo amaderado de sándalo y almizcle. Ideal para el uso diario y climas cálidos.",
+        "precio": 1800
+      },
+      {
+        "id": 51,
+        "nombre": "Lacoste Booster 125ml",
+        "descripcion": "Lacoste Booster es una fragancia masculina energética y fresca, con notas de salida de jengibre, pomelo y hierbas aromáticas, un corazón especiado con pimienta y cardamomo, y un fondo amaderado de cedro y almizcle. Ideal para actividades deportivas y climas cálidos.",
+        "precio" : 1800
+      },
+      {
+        "id": 52,
+        "nombre": "Lacoste 12.12 Blanc 100ml",
+        "descripcion": "Lacoste 12.12 Blanc es una fragancia masculina fresca y cítrica, con notas de salida de pomelo y romero, un corazón floral de tuberosa y cedro, y un fondo amaderado de vetiver y almizcle. Perfecta para el uso diario y climas cálidos.",
+        "precio": 2200
+      },
+      {
+        "id":53,
+        "nombre": "Delilah 100ml",
+        "descripcion": "Delilah Perfume es una fragancia femenina floral y afrutada, con notas de salida frescas de frutas como la pera y la mandarina, un corazón de flores como jazmín y rosa, y un fondo suave de almizcle y vainilla. Ideal para el uso diario y climas cálidos.",
+        "precio": 1400
+      }
+      ,
+      {
+        "id": 54,
+        "nombre": "Jorge Di Profumo Aqua 100ml",
+        "descripcion": "Jorge Di Profumo Aqua es una fragancia masculina fresca y acuática, con notas de salida cítricas y marinas, un corazón de flores ligeras y hierbas, y un fondo amaderado de musgo y sándalo. Ideal para el uso diario y climas cálidos.",
+        "precio": 1400
+      },
+      {
+        "id":55,
+        "nombre": "Jorge Di Profumo Deep Blue 100ml",
+        "descripcion": "Jorge Di Profumo Deep Blue es una fragancia masculina fresca y acuática, con notas de salida cítricas y frutales, un corazón floral con toques de jazmín y lavanda, y un fondo amaderado con notas de sándalo y almizcle. Perfecta para el uso diario y climas cálidos o templados.",
+        "precio":1400
+      },
+      {
+        "id": 56,
+        "nombre": "Ocean Breeze 100ml",
+        "descripcion": "Ocean Breeze Perfume es una fragancia fresca y acuática, con notas de salida de cítricos y frutas tropicales, un corazón floral de jazmín y lirio, y un fondo suave y amaderado de almizcle y sándalo. Ideal para el uso diario y climas cálidos.",
+        "precio":1400
+      },
+      {
+        "id": 57,
+        "nombre": "Yara 100ml",
+        "descripcion": "Yara es una fragancia femenina floral y afrutada, con notas de salida frescas de frutas tropicales, un corazón de flores como jazmín y rosa, y un fondo cálido de almizcle y madera. Perfecta para el uso diario y climas cálidos.",
+        "precio": 1400
+      }
+]
+  
+  

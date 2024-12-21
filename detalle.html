@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Perfume.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Productos.html">Productos</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Detalles del Producto -->
+    <section id="producto-detalles">
+        <!-- Aquí se cargarán los detalles del producto desde localStorage -->
+        <div class="detalle-producto">
+            <h1 id="nombre-producto"></h1>
+            <p id="descripcion-producto"></p>
+            <p id="precio-producto"></p>
+            <button id="contactar-whatsapp">Agregar y Contactar</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Perfumes Davis. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="detalle.js"></script> <!-- Enlace al archivo JavaScript de detalles -->
+</body>
+</html>

@@ -72,11 +72,11 @@ header nav a {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%; /* Ocupa el 100% del espacio disponible */
-    max-width: 300px; /* Ancho máximo para cada tarjeta */
+    max-width: 300px; /* Ancho máximo inicial para pantallas grandes */
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, max-width 0.3s ease;
 }
 
 .product-card:hover {
@@ -221,8 +221,17 @@ footer {
         padding: 30px;
     }
 
+    .product-card {
+        max-width: 250px; /* Reduce el ancho máximo */
+    }
+
     .product-card img {
         height: 200px; /* Reduce la altura de las imágenes */
+    }
+
+    .pagination-button {
+        padding: 8px 16px; /* Reduce el tamaño de los botones */
+        font-size: 0.9rem;
     }
 }
 
@@ -235,11 +244,16 @@ footer {
     }
 
     .product-card {
-        max-width: 100%;
+        max-width: 200px; /* Ajusta el tamaño para pantallas más pequeñas */
     }
 
     .product-card img {
         height: 180px;
+    }
+
+    .pagination-button {
+        padding: 6px 12px; /* Botones más compactos */
+        font-size: 0.8rem;
     }
 }
 
@@ -252,10 +266,19 @@ footer {
     }
 
     .product-card {
-        max-width: 100%;
+        max-width: 150px; /* Más pequeño para teléfonos pequeños */
     }
 
     .product-card img {
         height: 160px;
+    }
+
+    .pagination-button {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    #pagination {
+        gap: 5px; /* Menos espacio entre botones */
     }
 }

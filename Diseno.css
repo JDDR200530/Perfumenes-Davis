@@ -1,4 +1,4 @@
-/* Estilos básicos */
+/* Estilo base */
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -20,12 +20,13 @@ header nav a {
     text-decoration: none;
     font-weight: bold;
 }
-#buscador{
+
+#buscador {
     background: url('https://www.shutterstock.com/image-illustration/abstract-bright-pattern-vibrant-gradient-260nw-2374961797.jpg') no-repeat center center/cover;
-    float: none;
     text-align: center;
 }
-#searchButton{
+
+#searchButton {
     background-color: #fff;
     border-color: #fff;
     border-radius: 5px;
@@ -34,7 +35,7 @@ header nav a {
     font-family: serif;
 }
 
-#searchInput{
+#searchInput {
     background-color: white;
     text-align: center;
     padding: 10px;
@@ -44,9 +45,7 @@ header nav a {
     font-style: oblique;
     width: 200px;
     border: 1px solid #ccc;
-    
 }
-
 
 .hero {
     background: url('https://www.shutterstock.com/image-illustration/abstract-bright-pattern-vibrant-gradient-260nw-2374961797.jpg') no-repeat center center/cover;
@@ -59,11 +58,12 @@ header nav a {
     font-size: 3rem;
 }
 
+/* Productos */
 .products {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    grid-gap: 20px; /* Espacio entre productos */
-    padding: 20px;
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas para pantallas grandes */
+    grid-gap: 30px; /* Espacio entre productos */
+    padding: 40px 20px;
     justify-items: center;
     margin-bottom: 40px; /* Espacio al final para la paginación */
 }
@@ -72,15 +72,20 @@ header nav a {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%; /* Ocupa el 100% del espacio disponible */
-    max-width: 250px; /* Ancho máximo para cada tarjeta */
+    max-width: 300px; /* Ancho máximo para cada tarjeta */
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente al pasar el cursor */
 }
 
 .product-card img {
     width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-    height: 200px; /* Establecemos una altura fija para las imágenes */
+    height: 220px; /* Establecemos una altura fija para las imágenes */
     object-fit: cover; /* Recorta la imagen para que cubra todo el espacio sin deformarse */
 }
 
@@ -172,7 +177,6 @@ footer {
 }
 
 /* Paginación */
-/* Estilos de la paginación */
 #pagination {
     display: flex;
     justify-content: center;
@@ -207,34 +211,51 @@ footer {
     cursor: not-allowed;
 }
 
-/* Estilo para dispositivos pequeños (mobile first) */
+/* Responsividad */
+
+/* Pantallas medianas (tablets) */
+@media (max-width: 1024px) {
+    .products {
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+        grid-gap: 20px; /* Espacio reducido entre productos */
+        padding: 30px;
+    }
+
+    .product-card img {
+        height: 200px; /* Reduce la altura de las imágenes */
+    }
+}
+
+/* Pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
     .products {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas para pantallas medianas */
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+        grid-gap: 15px; /* Menos espacio entre productos */
+        padding: 20px;
     }
 
     .product-card {
         max-width: 100%;
     }
+
+    .product-card img {
+        height: 180px;
+    }
 }
 
+/* Pantallas muy pequeñas (teléfonos pequeños) */
 @media (max-width: 480px) {
     .products {
-        grid-template-columns: 1fr; /* 1 columna para pantallas pequeñas */
-    }
-}
-
-/* Estilos para la barra de navegación y hero en móviles */
-@media (max-width: 480px) {
-    header nav {
-        font-size: 14px;
+        grid-template-columns: 1fr; /* 1 columna */
+        grid-gap: 10px; /* Espacio compacto */
+        padding: 15px;
     }
 
-    .hero h1 {
-        font-size: 2rem;
+    .product-card {
+        max-width: 100%;
     }
 
-    .hero p {
-        font-size: 1rem;
+    .product-card img {
+        height: 160px;
     }
 }

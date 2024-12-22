@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -60,8 +59,9 @@ footer {
 /* Contenedor de imágenes */
 .images-container {
     position: relative;
-    width: 600px; /* Ancho del contenedor */
-    height: 400px; /* Altura del contenedor */
+    width: 80%; /* Ancho adaptado al tamaño de la pantalla */
+    max-width: 600px; /* Ancho máximo */
+    height: auto; /* Altura ajustable */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,30 +79,6 @@ footer {
     transition: color 0.3s ease;
     z-index: 1;
 }
-#contactar-whatsapp {
-    background-color: #25d366; /* Color verde de WhatsApp */
-    color: white;
-    border: none;
-    padding: 15px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: background-color 0.3s, transform 0.2s;
-    display: inline-block; /* Permite centrarlo más fácilmente */
-    margin: 20px 0; /* Espacio arriba y abajo */
-}
-
-#contactar-whatsapp:hover {
-    background-color: #20b358; /* Color ligeramente más oscuro para hover */
-    transform: scale(1.05); /* Efecto de ampliación */
-}
-
-#contactar-whatsapp:active {
-    background-color: #1e9c4c; /* Color más oscuro al presionar */
-    transform: scale(0.95); /* Efecto de presión */
-}
 
 #prev-arrow {
     left: -60px;  /* Desplazar 20px a la izquierda */
@@ -118,8 +94,8 @@ footer {
 
 /* Cada imagen del producto */
 .images img {
-    width: 450px; /* Ancho de la imagen */
-    height: 450px; /* Altura de la imagen */
+    width: 100%; /* Ancho de la imagen */
+    height: auto; /* Altura ajustable */
     object-fit: cover; /* Asegura que la imagen se recorte correctamente para llenar el contenedor */
     display: none;  /* Ocultar imágenes por defecto */
     transition: opacity 0.5s ease-in-out;  /* Efecto de transición suave */
@@ -149,4 +125,134 @@ footer {
 
 .indicator-circle.active {
     background-color: #f0a500;
+}
+
+/* Estilos para el botón de WhatsApp */
+#contactar-whatsapp {
+    background-color: #25d366; /* Color verde de WhatsApp */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block; /* Permite centrarlo más fácilmente */
+    margin: 20px 0; /* Espacio arriba y abajo */
+}
+
+#contactar-whatsapp:hover {
+    background-color: #20b358; /* Color ligeramente más oscuro para hover */
+    transform: scale(1.05); /* Efecto de ampliación */
+}
+
+#contactar-whatsapp:active {
+    background-color: #1e9c4c; /* Color más oscuro al presionar */
+    transform: scale(0.95); /* Efecto de presión */
+}
+
+/* Responsividad */
+
+/* Pantallas grandes (mayores a 1024px) */
+@media (min-width: 1025px) {
+    #producto-detalles h1 {
+        font-size: 3.5rem; /* Aumentar tamaño del título en pantallas grandes */
+    }
+
+    #producto-detalles p {
+        font-size: 2rem; /* Aumentar tamaño del texto */
+    }
+
+    .images-container {
+        width: 60%; /* Ancho reducido en pantallas grandes */
+    }
+
+    .images img {
+        height: 500px; /* Imagen más grande en pantallas grandes */
+    }
+
+    .arrow {
+        font-size: 3rem; /* Flechas más grandes */
+    }
+}
+
+/* Pantallas medianas (tablets, entre 768px y 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    #producto-detalles h1 {
+        font-size: 2.8rem; /* Tamaño del título ajustado */
+    }
+
+    #producto-detalles p {
+        font-size: 1.6rem; /* Ajustar tamaño del texto */
+    }
+
+    .images-container {
+        width: 70%; /* Ancho del contenedor ajustado */
+    }
+
+    .images img {
+        height: 400px; /* Imagen ajustada para pantallas medianas */
+    }
+
+    .arrow {
+        font-size: 2.5rem; /* Flechas medianas */
+    }
+}
+
+/* Pantallas pequeñas (móviles, menores a 768px) */
+@media (max-width: 768px) {
+    #producto-detalles h1 {
+        font-size: 2.2rem; /* Reducir el tamaño del título */
+    }
+
+    #producto-detalles p {
+        font-size: 1.4rem; /* Reducir tamaño del texto */
+    }
+
+    .images-container {
+        width: 90%; /* Ancho casi completo en pantallas pequeñas */
+    }
+
+    .images img {
+        height: 300px; /* Imagen más pequeña */
+    }
+
+    .arrow {
+        font-size: 2rem; /* Flechas más pequeñas */
+    }
+
+    #contactar-whatsapp {
+        font-size: 1rem; /* Ajustar tamaño del botón */
+        padding: 12px 15px; /* Ajustar tamaño del botón */
+    }
+}
+
+/* Pantallas muy pequeñas (teléfonos pequeños) */
+@media (max-width: 480px) {
+    #producto-detalles h1 {
+        font-size: 1.8rem; /* Reducir aún más el título */
+    }
+
+    #producto-detalles p {
+        font-size: 1.2rem; /* Reducir aún más el texto */
+    }
+
+    .images-container {
+        width: 100%; /* Ancho completo */
+    }
+
+    .images img {
+        height: 250px; /* Imagen aún más pequeña */
+    }
+
+    .arrow {
+        font-size: 1.5rem; /* Flechas pequeñas */
+    }
+
+    #contactar-whatsapp {
+        width: 100%; /* Hacer el botón más ancho */
+        padding: 12px; /* Ajustar el tamaño del botón */
+    }
 }

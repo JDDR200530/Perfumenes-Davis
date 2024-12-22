@@ -345,6 +345,37 @@
         "descripcion": "Yara es una fragancia femenina floral y afrutada, con notas de salida frescas de frutas tropicales, un corazón de flores como jazmín y rosa, y un fondo cálido de almizcle y madera. Perfecta para el uso diario y climas cálidos.",
         "precio": 1400
       }
+      ,
+      {
+        "id": 58,
+        "nombre": "Glacier Le Noir 100ml",
+        "descripcion": "Glacier Le Noir es una fragancia masculina cálida y especiada, con notas de salida de bergamota y pimienta negra, un corazón de lavanda y cuero, y un fondo profundo de ámbar, vainilla y maderas ahumadas. Ideal para climas fríos y ocasiones especiales.",
+        "precio": 1600
+      },
+      {
+        "id" : 59,
+        "nombre": "Italiano Glenn Perri 90ml",
+        "descripcion": "Italiano Uomo de Glenn Perri es una fragancia masculina sofisticada y amaderada, con notas de salida frescas de bergamota y limón, un corazón especiado con lavanda y romero, y un fondo cálido de cedro, ámbar y almizcle. Ideal para el uso diario y ocasiones formales.",
+        "precio": 1400
+      },
+      {
+        "id": 60,
+        "nombre": "Opera 100ml",
+        "descripcion": "Opera Perfume es una fragancia unisex lujosa y oriental, conocida por su combinación sofisticada de notas afrutadas y especiadas. Su salida incluye bergamota y frutas rojas, un corazón floral con jazmín y rosa, y un fondo cálido de vainilla, ámbar y madera de oud. Ideal para ocasiones especiales y climas frescos.",
+        "precio":1100
+      },
+      {
+        "id": 61,
+        "nombre": "Al Noble Ameer 100ml",
+        "descripcion": "Al Noble Ameer es una fragancia masculina oriental y amaderada, con notas de salida frescas de bergamota y cítricos, un corazón especiado con canela y clavo, y un fondo cálido y profundo de oud, sándalo y ámbar. Ideal para ocasiones formales y climas fríos.",
+        "precio":1400
+      },
+      {
+        "id": 62,
+        "nombre": "Desert Angel Blue Nigth 100ml",
+        "descripcion": "Desert Angel Blue Night es una fragancia femenina oriental y floral, con notas de salida frescas y afrutadas, un corazón floral de jazmín y rosa, y un fondo cálido de ámbar, almizcle y vainilla. Ideal para la noche y ocasiones especiales.",
+        "precio":1400
+      }
 ]
   
   

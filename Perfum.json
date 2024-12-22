@@ -375,6 +375,66 @@
         "nombre": "Desert Angel Blue Nigth 100ml",
         "descripcion": "Desert Angel Blue Night es una fragancia femenina oriental y floral, con notas de salida frescas y afrutadas, un corazón floral de jazmín y rosa, y un fondo cálido de ámbar, almizcle y vainilla. Ideal para la noche y ocasiones especiales.",
         "precio":1400
+      },
+      {
+        "id": 63,
+        "nombre": "Bade'e Al Oud Amethyst 100ml",
+        "descripcion":"Bade'e Al Oud Amethyst es una fragancia unisex oriental y floral, con notas de salida frescas de bergamota y frutos rojos, un corazón floral de rosa y jazmín, y un fondo cálido y amaderado de oud, sándalo y ámbar. Ideal para ocasiones especiales y climas frescos.",
+        "precio": 1400
+      },
+      {
+        "id": 64,
+        "nombre": "Reyna 100ml",
+        "descripcion": "Reyna Pour Femme es una fragancia femenina floral y afrutada, con notas de salida frescas de frutas cítricas y manzana, un corazón floral de jazmín y rosa, y un fondo suave de almizcle y vainilla. Perfecta para el uso diario y climas templados.",
+        "precio":1400
+      },
+      {
+       "id": 65,
+       "nombre": "9 am Women 100ml",
+       "descripcion": "9 AM Pour Femme es una fragancia femenina fresca y floral, con notas de salida cítricas de mandarina y limón, un corazón floral de jazmín y rosa, y un fondo cálido y amaderado de almizcle y ámbar. Ideal para el uso diario y climas cálidos.",
+       "precio": 1400 
+      },
+      {
+        "id": 66,
+        "nombre": "Glossy 100ml",
+        "descripcion": "Glossy Perfume es una fragancia femenina dulce y afrutada, con notas de salida frescas de frutas como la pera y la mandarina, un corazón floral de jazmín y rosa, y un fondo suave de almizcle y vainilla. Perfecta para el uso diario y climas cálidos.",
+        "precio": 1400
+      },
+      {
+        "id": 67,
+        "nombre": "La Voie 100ml",
+        "descripcion": "La Voie Perfume es una fragancia femenina elegante y floral, con notas de salida frescas de bergamota y frutas, un corazón floral de jazmín y rosa, y un fondo cálido y amaderado de sándalo y almizcle. Ideal para ocasiones especiales y climas templados.",
+        "precio": 1400
+      },
+      {
+        "id":68,
+        "nombre": "She Fashion 100ml",
+        "descripcion": "She Fashion Perfume es una fragancia femenina floral y afrutada, con notas de salida frescas de cítricos y frutas rojas, un corazón floral de jazmín y rosa, y un fondo suave de almizcle y madera. Perfecta para el uso diario y climas cálidos.",
+        "precio": 1400
+      },
+      {
+        "id": 69,
+        "nombre": "Mafia Fragrance Story 100ml",
+        "descripcion": "Mafia Fragrance Story es una fragancia masculina intensa y amaderada, con notas de salida frescas de cítricos y especias, un corazón de lavanda y madera, y un fondo cálido y profundo de oud, ámbar y almizcle. Ideal para ocasiones especiales y climas frescos."
+        ,"precio":1400
+      },
+      {
+        "id": 70,
+        "nombre": "So Candid 100ml",
+        "descripcion": "So Candid Maison Alhambra es una fragancia unisex floral y afrutada, con notas de salida frescas de frutas cítricas y manzana verde, un corazón floral de jazmín y rosa, y un fondo suave de almizcle y ámbar. Ideal para el uso diario y climas templados.",
+        "precio":1400
+      },
+      {
+        "id": 71,
+        "nombre": "Baroque Rouge Extrait 100ml",
+        "descripcion": "Baroque Rouge Extrait es una fragancia unisex oriental y cálida, con notas de salida especiadas y florales, un corazón de ámbar, jazmín y rosa, y un fondo profundo de oud, vainilla y almizcle. Ideal para ocasiones especiales y climas fríos.",
+        "precio": 1400
+      },
+      {
+        "id": 72,
+        "nombre": "Envy Fragrance Story 100ml",
+        "descripcion":"Envy Fragrance Story es una fragancia femenina fresca y floral, con notas de salida de manzana verde y cítricos, un corazón floral de jazmín y lirio, y un fondo cálido de sándalo, ámbar y almizcle. Ideal para el uso diario y climas templados.",
+        "precio":1400
       }
 ]
   

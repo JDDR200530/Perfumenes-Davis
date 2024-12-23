@@ -226,6 +226,7 @@ footer {
 
     .images-container {
         width: 90%; /* Ancho casi completo en pantallas pequeñas */
+        position: relative; /* Asegura que las flechas se posicionen bien */
     }
 
     .images img {
@@ -234,6 +235,22 @@ footer {
 
     .arrow {
         font-size: 2rem; /* Flechas más pequeñas */
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); /* Centrar las flechas verticalmente */
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 2; /* Asegura que las flechas estén encima de las imágenes */
+    }
+
+    #prev-arrow {
+        left: 10px;
+    }
+
+    #next-arrow {
+        right: 10px;
     }
 
     #contactar-whatsapp {
@@ -243,27 +260,6 @@ footer {
 
     #Sector {
         font-size: 18px; /* Reducir tamaño del texto en pantallas pequeñas */
-    }
-
-    /* Carrusel en pantallas pequeñas */
-    
-    .arrow {
-        font-size: 2rem;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding: 10px;
-        cursor: pointer;
-    }
-
-    #prev-arrow {
-        left: 10px;
-    }
-
-    #next-arrow {
-        right: 10px;
     }
 }
 

@@ -435,7 +435,45 @@
         "nombre": "Envy Fragrance Story 100ml",
         "descripcion":"Envy Fragrance Story es una fragancia femenina fresca y floral, con notas de salida de manzana verde y cítricos, un corazón floral de jazmín y lirio, y un fondo cálido de sándalo, ámbar y almizcle. Ideal para el uso diario y climas templados.",
         "precio":1400
+      },
+      {
+        "id": 73,
+        "nombre": "Estuche Club de Nuit Intense Man",
+        "descripcion": "Club de Nuit Intense Man de Armaf es una fragancia masculina intensa, fresca y amaderada, con notas de cítricos, jazmín y un fondo de almizcle y vainilla. Es una alternativa asequible a Creed Aventus.",
+        "precio": 2200
+      },
+      {
+        "id" : 74,
+        "nombre": "Estuche Club de Nuit Woman",
+        "descripcion": "Club de Nuit Woman de Armaf es una fragancia femenina floral y afrutada, con notas de cítricos, rosa, jazmín y un toque amaderado. Es sofisticada y fresca, ideal para quienes buscan una fragancia elegante y duradera."
+        ,"precio": 2200
+      },
+      {
+        "id": 75,
+        "nombre": "Estuche Club de Nuit Discovery",
+        "descripcion": "El Club de Nuit Discovery de Armaf es un set de miniaturas con varias fragancias populares de la línea, ideal para probar diferentes aromas antes de elegir el favorito.",
+        "precio": 2200
+      },
+      {
+        "id": 76,
+        "nombre": "Estuche Club de Nuit Milestone",
+        "descripcion": "El Club de Nuit Milestone de Armaf es una fragancia masculina que combina notas frescas y amaderadas, con toques cítricos, florales y ambarinos. Su estuche incluye el perfume en un diseño elegante, ideal para quienes buscan una opción sofisticada y duradera",
+        "precio": 2200
+      },
+      {
+        "id": 77,
+        "nombre": "Estuche Club de Nuit Ico",
+        "descripcion": "El Club de Nuit Iconic de Armaf es una fragancia masculina moderna con notas frescas, especiadas y amaderadas. Su estuche destaca por su presentación elegante y es ideal para quienes buscan un aroma versátil y duradero.",
+        "precio":2200
       }
+      ,
+      {
+        "id": 78,
+        "nombre": "Estuche Club de Nuit Untold",
+        "descripcion": "El Club de Nuit Untold de Armaf es una fragancia unisex con notas orientales y ambaradas, sofisticada y duradera. Su estuche incluye un diseño elegante, perfecto para quienes buscan un aroma distintivo y lujoso.",
+        "precio": 2200
+      }
+      
 ]
   
   

@@ -24,6 +24,7 @@ header nav a {
 #buscador {
     background: url('https://www.shutterstock.com/image-illustration/abstract-bright-pattern-vibrant-gradient-260nw-2374961797.jpg') no-repeat center center/cover;
     text-align: center;
+    padding: 20px 0;
 }
 
 #searchButton {
@@ -33,6 +34,7 @@ header nav a {
     width: 100px;
     height: 30px;
     font-family: serif;
+    cursor: pointer;
 }
 
 #searchInput {
@@ -61,18 +63,18 @@ header nav a {
 /* Productos */
 .products {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 4 columnas para pantallas grandes */
-    grid-gap: 30px; /* Espacio entre productos */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 30px;
     padding: 40px 20px;
     justify-items: center;
-    margin-bottom: 40px; /* Espacio al final para la paginación */
+    margin-bottom: 40px;
 }
 
 .product-card {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Ocupa el 100% del espacio disponible */
-    max-width: 300px; /* Ancho máximo inicial para pantallas grandes */
+    width: 100%;
+    max-width: 300px;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
@@ -80,13 +82,13 @@ header nav a {
 }
 
 .product-card:hover {
-    transform: scale(1.05); /* Aumenta ligeramente al pasar el cursor */
+    transform: scale(1.05);
 }
 
 .product-card img {
-    width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-    height: 220px; /* Establecemos una altura fija para las imágenes */
-    object-fit: cover; /* Recorta la imagen para que cubra todo el espacio sin deformarse */
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
 }
 
 .product-card h3 {
@@ -181,9 +183,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Espacio entre los botones */
+    gap: 10px;
     margin-top: 20px;
-    margin-bottom: 40px; /* Un poco de espacio debajo de los productos */
+    margin-bottom: 40px;
 }
 
 .pagination-button {
@@ -213,60 +215,64 @@ footer {
 
 /* Responsividad */
 
-/* Pantallas medianas (tablets) */
+/* Tablets */
 @media (max-width: 1024px) {
     .products {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-        grid-gap: 20px; /* Espacio reducido entre productos */
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
         padding: 30px;
     }
 
     .product-card {
-        max-width: 250px; /* Reduce el ancho máximo */
+        max-width: 250px;
     }
 
     .product-card img {
-        height: 200px; /* Reduce la altura de las imágenes */
+        height: 200px;
     }
 
     .pagination-button {
-        padding: 8px 16px; /* Reduce el tamaño de los botones */
+        padding: 8px 16px;
         font-size: 0.9rem;
     }
 }
 
-/* Pantallas pequeñas (móviles) */
+/* Móviles */
 @media (max-width: 768px) {
     .products {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
-        grid-gap: 15px; /* Menos espacio entre productos */
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
         padding: 20px;
     }
 
     .product-card {
-        max-width: 200px; /* Ajusta el tamaño para pantallas más pequeñas */
+        max-width: 200px;
     }
 
     .product-card img {
         height: 180px;
     }
 
+    .product-card p {
+        display: none;
+    }
+
     .pagination-button {
-        padding: 6px 12px; /* Botones más compactos */
+        padding: 6px 12px;
         font-size: 0.8rem;
     }
 }
 
-/* Pantallas muy pequeñas (teléfonos pequeños) */
+/* Teléfonos pequeños */
 @media (max-width: 480px) {
     .products {
-        grid-template-columns: 1fr; /* 1 columna */
-        grid-gap: 10px; /* Espacio compacto */
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
         padding: 15px;
     }
 
     .product-card {
-        max-width: 150px; /* Más pequeño para teléfonos pequeños */
+        max-width: 150px;
     }
 
     .product-card img {
@@ -279,6 +285,6 @@ footer {
     }
 
     #pagination {
-        gap: 5px; /* Menos espacio entre botones */
+        gap: 5px;
     }
 }

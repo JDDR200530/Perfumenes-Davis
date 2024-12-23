@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Obtener los detalles del producto desde el localStorage
     const productDetails = JSON.parse(localStorage.getItem('productDetails'));
 
     if (productDetails) {
         const productoDetallesSection = document.querySelector('#producto-detalles');
-        
+
         // Obtener las imágenes del producto
         fetch('Imag.json')
             .then(response => response.json())
@@ -69,10 +69,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     const btnContactar = document.getElementById('contactar-whatsapp');
                     btnContactar.addEventListener('click', () => {
                         const numeroWhatsApp = "+50498004123"; // Reemplaza con el número deseado
-                        const mensaje = `Hola, estoy interesado en el producto: ${productDetails.nombre} \n
-a un precio de: $${productDetails.precio.toFixed(2)}.\n
-Imagen destacada:\n
-${images[currentImageIndex].src}`;
+                        const mensaje = `Hola, estoy interesado en el producto: ${productDetails.nombre}\n
+                        a un precio de: $${productDetails.precio.toFixed(2)}.\n
+                        Imagen destacada:\n
+                        ${images[currentImageIndex].src}`;
 
                         const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
                         window.open(urlWhatsApp, '_blank');

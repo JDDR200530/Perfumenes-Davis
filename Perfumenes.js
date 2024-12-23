@@ -20,7 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 productosFiltrados = productos; // Actualizar productos filtrados
 
                 const totalProductos = productos.length;
-                const inicio = (pagina - 1) * productosPorPagina;
+                const totalPaginas = Math.ceil(totalProductos / productosPorPagina);
+                paginaActual = Math.min(pagina, totalPaginas); // Asegurarse de que la página no supere el total de páginas
+
+                const inicio = (paginaActual - 1) * productosPorPagina;
                 const fin = inicio + productosPorPagina;
                 const productosPagina = productos.slice(inicio, fin);
 
@@ -41,8 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     productosSection.appendChild(productCard);
                 });
 
-                const totalPaginas = Math.ceil(totalProductos / productosPorPagina);
-                crearPaginacion(totalPaginas, pagina);
+                crearPaginacion(totalPaginas, paginaActual);
             })
             .catch(error => console.error("Error cargando productos o imágenes:", error));
     }
@@ -65,11 +67,10 @@ document.addEventListener("DOMContentLoaded", function () {
             paginationContainer.appendChild(prevButton);
         }
 
-        // Rango de botones de página (del 1 al 4, ajustable)
-        let startPage = Math.max(1, paginaActual - 1); // Empieza de la página actual menos 1
-        let endPage = Math.min(totalPaginas, startPage + 3); // Termina en la página actual más 3, pero no más allá del total de páginas
+        // Botones de número de página
+        const startPage = Math.max(1, paginaActual - 2); // Mostrar 2 páginas antes
+        const endPage = Math.min(totalPaginas, paginaActual + 2); // Mostrar 2 páginas después
 
-        // Mostrar los botones del rango seleccionado
         for (let i = startPage; i <= endPage; i++) {
             const pageButton = document.createElement("button");
             pageButton.textContent = i;
@@ -89,9 +90,64 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Resto de las funciones (buscarProductos, viewProductDetails, etc.)
-    // ...
+    /**
+     * Busca productos por nombre.
+     * @param {string} query - Término de búsqueda.
+     */
+    function buscarProductos(query) {
+        fetch("Perfum.json")
+            .then(response => response.json())
+            .then(productos => {
+                const resultados = productos.filter(producto =>
+                    producto.nombre.toLowerCase().includes(query.toLowerCase())
+                );
+
+                if (resultados.length > 0) {
+                    cargarProductos(1, resultados);
+                } else {
+                    const productosSection = document.querySelector("#productos");
+                    productosSection.innerHTML = "<p>No se encontraron productos con ese nombre.</p>";
+                    const paginationContainer = document.querySelector("#pagination");
+                    paginationContainer.innerHTML = ""; // Limpiar la paginación
+                }
+            })
+            .catch(error => console.error("Error al buscar productos:", error));
+    }
+
+    /**
+     * Muestra los detalles de un producto.
+     * @param {number} productId - ID del producto.
+     */
+    function viewProductDetails(productId) {
+        fetch("Perfum.json")
+            .then(response => response.json())
+            .then(productos => {
+                const producto = productos.find(prod => prod.id === productId);
+                if (producto) {
+                    localStorage.setItem("productDetails", JSON.stringify(producto));
+                    window.location.href = "detalle.html";
+                }
+            })
+            .catch(error => console.error("Error al cargar los detalles del producto:", error));
+    }
+
+    // Agregar eventos al buscador
+    const searchInput = document.querySelector("#searchInput");
+    const searchButton = document.querySelector("#searchButton");
+
+    searchButton.addEventListener("click", () => {
+        const query = searchInput.value.trim();
+        if (query) buscarProductos(query);
+    });
+
+    searchInput.addEventListener("input", () => {
+        const query = searchInput.value.trim();
+        if (!query) cargarProductos(1); // Volver a cargar todos los productos si el input está vacío
+    });
 
     // Cargar la primera página de productos
     cargarProductos(paginaActual);
+
+    // Exportar la función de ver detalles
+    window.viewProductDetails = viewProductDetails;
 });

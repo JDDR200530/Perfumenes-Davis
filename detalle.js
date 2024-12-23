@@ -69,9 +69,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     const btnContactar = document.getElementById('contactar-whatsapp');
                     btnContactar.addEventListener('click', () => {
                         const numeroWhatsApp = "+50498004123"; // Reemplaza con el número deseado
-                        const mensaje = `Hola, estoy interesado en el producto: ${productDetails.nombre}\n
-                        a un precio de: $${productDetails.precio.toFixed(2)}.\n
-                        Imagen destacada:\n
+                        const mensaje = `Hola, estoy interesado en el producto: ${productDetails.nombre}
+                        a un precio de: ${productDetails.precio.toFixed(2)} lps.
+                        Imagen destacada:
                         ${images[currentImageIndex].src}`;
 
                         const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
